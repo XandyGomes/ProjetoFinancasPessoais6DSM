@@ -44,5 +44,9 @@ public class Lancamento {
 	@Column(name = "tipo")
 	@Enumerated(value = EnumType.STRING)
 	private TipoLancamento tipo;
+	
+	@Column(name = "status")
+	@Enumerated(value = EnumType.STRING)
+	private StatusLancamento status;
 
 }
