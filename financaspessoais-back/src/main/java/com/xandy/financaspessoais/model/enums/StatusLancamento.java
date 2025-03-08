@@ -1,4 +1,4 @@
-package com.xandy.financaspessoais.model.entity;
+package com.xandy.financaspessoais.model.enums;
 
 public enum StatusLancamento {
 	PENDENTE,

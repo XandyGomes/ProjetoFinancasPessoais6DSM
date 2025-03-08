@@ -3,6 +3,9 @@ package com.xandy.financaspessoais.model.entity;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+import com.xandy.financaspessoais.model.enums.StatusLancamento;
+import com.xandy.financaspessoais.model.enums.TipoLancamento;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
